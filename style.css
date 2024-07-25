@@ -13,20 +13,20 @@ body {
     font-size: 13px;
     color:#515076;
     margin: 0;
-
 }
 .title {
     font-weight: 400;
     font-size: 70px;
     line-height: 78px;
     margin-top: 220px;
-    margin-left: 217px;
     text-align: center; 
 }
 .items_wrap{
     width: 1110px;
     margin-left: 85px;
     list-style: none;
+    
+
 }
 
 .list_items{
@@ -45,8 +45,8 @@ body {
     width:340px;
 }
 .photo_item{
-width: 290px;
-height: 245px;
+    width: 290px;
+    height: 245px;
 }
 .item_type{
     display: inline;
@@ -72,13 +72,13 @@ height: 245px;
     font-weight: 400;
 }
 .item_price{
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-margin-top: 25px; 
-display: flex;
-flex-wrap: wrap;
-gap: 150px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 25px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
 }
 .item_price span{
     font-weight: 400;  
