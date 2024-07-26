@@ -14,22 +14,23 @@ body {
     color:#515076;
     margin: 0;
 }
+
 .title {
     font-weight: 400;
     font-size: 70px;
     line-height: 78px;
     margin-top: 220px;
-    text-align: center; 
+    text-align: center;
 }
-.items_wrap{
+
+.items_wrap {
     width: 1110px;
-    margin-left: 85px;
+    margin: auto;
     list-style: none;
-    
-
+    margin-bottom: 116px;
 }
 
-.list_items{
+.list_items {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -38,40 +39,46 @@ body {
     gap: 45px;
     justify-content: center;
 }
-.list_item{
+
+.list_item { 
     width: 340px;
-    background-color:#5150761A;
-    padding: 25px ;
-    width:340px;
+    background-color:rgba(247,247,250,1); 
+    filter:drop-shadow(2px 2px 0 #5150761A); 
+    padding: 25px;
 }
-.photo_item{
+
+.photo_item {
     width: 290px;
     height: 245px;
 }
-.item_type{
+
+.item_type {
     display: inline;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
+    text-transform: uppercase;
     padding-bottom: 5px;
     color: #A5A3B9;
 }
 
-.item_name{
+.item_name {
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
-    
 }
+
 .item_description {
     line-height: 18px;
     font-weight: 400;
 }
-.item_ingredients{
+
+.item_ingredients {
     line-height: 13px;
     font-weight: 400;
 }
-.item_price{
+
+.item_price {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -80,6 +87,7 @@ body {
     flex-wrap: wrap;
     gap: 150px;
 }
-.item_price span{
+
+.item_price span {
     font-weight: 400;  
 }
