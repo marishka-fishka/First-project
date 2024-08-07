@@ -1,0 +1,12 @@
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+}
+
+.products__item {
+    background-color:rgba(247,247,250,1); 
+    filter:drop-shadow(2px 2px 0 #5150761A); 
+    padding: 25px;
+}

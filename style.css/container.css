@@ -1,0 +1,10 @@
+.container__title {
+    margin-top: 220px;
+    margin-bottom: 110px;
+}
+
+.container__wrap {
+    width: 1110px;
+    margin: auto;
+    list-style: none;
+} 
